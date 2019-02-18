@@ -73,6 +73,7 @@ namespace GradeBook.UserInterfaces
             GradeBookUserInterface.CommandLoop(gradeBook);
         }
 
+        //updated help command
         public static void HelpCommand()
         {
             Console.WriteLine();
