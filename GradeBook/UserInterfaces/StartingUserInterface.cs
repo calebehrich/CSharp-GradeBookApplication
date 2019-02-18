@@ -30,7 +30,7 @@ namespace GradeBook.UserInterfaces
             else
                 Console.WriteLine("{0} was not recognized, please try again.", command);
         }
-
+        //pluralsight doesn't like this StandardGradeBook()
         public static void CreateCommand(string command)
         {
             var parts = command.Split(' ');
